@@ -1,0 +1,592 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/* for all design00 */
+
+section {
+    text-align: center;
+    padding: 80px;
+}
+
+header {
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.39)), to(rgba(0, 0, 255, 0.486))), url('img/Screenshot_2.jpg');
+    background: -o-linear-gradient(rgba(255, 0, 0, 0.39), rgba(0, 0, 255, 0.486)), url('img/Screenshot_2.jpg');
+    background: linear-gradient(rgba(255, 0, 0, 0.39), rgba(0, 0, 255, 0.486)), url('img/Screenshot_2.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: unset;
+}
+
+.case-study {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.row img {
+    border: 6px solid green;
+    border-radius: 50%;
+}
+
+.col {}
+
+.left-side h2 {
+    color: black;
+    font-size: 36px;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: arival;
+    font-style: normal;
+}
+
+.left-side h2::after {
+    content: "";
+    display: block;
+    background: green;
+    height: 4px;
+    width: 108px;
+    margin: 17px 0;
+}
+
+.left-side h3 {
+    color: red;
+    font-size: 32px;
+    text-transform: capitalize;
+    text-align: left;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.left-side p {
+    color: grey;
+    font-size: 21px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.skill-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background: #e5e7e5;
+    text-align: left;
+}
+
+.skill-section h2::after {
+    content: "";
+    display: block;
+    background: green;
+    height: 4px;
+    width: 108px;
+    margin: 32px 0;
+}
+
+.column-a h2 {
+    color: black;
+    text-align: left;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+
+.column-a p {
+    color: grey;
+    font-size: 19px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.column-a {
+    text-align: center;
+}
+
+.column-b h3 {
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 12px 0;
+    letter-spacing: .5px;
+}
+
+.column-b p {
+    color: grey;
+    font-size: 17px;
+    text-transform: capitalize;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-align: left;
+    clear: both;
+    margin: 9px 0;
+}
+
+.column-c {}
+
+.icon-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.column-c h3 {
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 12px 0;
+    letter-spacing: .5px;
+}
+
+.column-c p {
+    color: grey;
+    font-size: 17px;
+    text-transform: capitalize;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-align: left;
+    clear: both;
+    margin: 9px 0;
+}
+
+.partnership {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: black;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+}
+
+.partnership h3 {
+    font-size: 44px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.partnership p {
+    font-size: 25px;
+    letter-spacing: .5px;
+    font-family: auto;
+    font-style: italic;
+    margin: 62px 2px;
+}
+
+.jone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.head {
+    text-align: left;
+}
+
+.jone img {
+    margin-right: 29px;
+    border-radius: 50%;
+}
+
+.log {}
+
+.log h4 {
+    font-size: 26px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.log span {
+    font-size: 19px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: darkblue;
+    font-weight: 800;
+}
+
+.project {}
+
+.project h2 {
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: auto;
+    margin-bottom: 58px;
+}
+
+.project-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.latest {
+    position: relative;
+    width: 370px;
+    height: 500px;
+}
+
+.latest img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    background: #000000e1;
+    bottom: 29px;
+    left: 0;
+    padding: 20px;
+}
+
+.title h3 {
+    color: #3e1da5;
+    font-size: 32px;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.title p {
+    color: grey;
+    font-size: 22px;
+    text-align: left;
+}
+
+.our-company {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: left;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.left-company {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 60%;
+    padding: 26px;
+}
+
+.left-company h2 {
+    color: black;
+    font-size: 45px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-family: fangsong;
+    margin-bottom: 35px;
+}
+
+.left-company h5 {
+    color: grey;
+    font-size: 21px;
+    text-transform: lowercase;
+    font-family: sans-serif;
+    margin: 33px 0;
+    word-spacing: 4px;
+}
+
+.left-company p {
+    color: black;
+    font-size: 19px;
+    letter-spacing: 1px;
+    clear: both;
+    word-spacing: 3px;
+    margin: 9px 0;
+}
+
+.company-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.company-img img {
+    width: 50%;
+}
+
+.right-company {
+    padding: 26px;
+    width: 40%;
+}
+
+.right-company h2 {
+    font-size: 45px;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+    font-size: 17px;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 17px 7px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    text-transform: capitalize;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    background-color: white;
+    overflow: hidden;
+    font-size: 17px;
+    word-spacing: 4px;
+    text-align: left;
+    -webkit-transition: max-height 0.2s ease-out;
+    -o-transition: max-height 0.2s ease-out;
+    transition: max-height 0.2s ease-out;
+    max-height: 0;
+}
+
+.right-company .accordion:nth-child(1) {
+    margin-top: 30px;
+}
+
+.accordion::after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: left;
+    margin-right: 19px;
+}
+
+.active::after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.case-studies {
+    background: beige;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    overflow: hidden;
+}
+
+.box1 {
+    width: 32%;
+    margin-right: 12px;
+}
+
+.box1 img {
+    width: 100%;
+}
+
+.box1 h3 {
+    color: black;
+    font-size: 38px;
+    text-transform: capitalize;
+    word-spacing: 11px;
+    margin: 16px 0;
+}
+
+.box1 p {
+    color: grey;
+    font-size: 19px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-align: justify;
+}
+
+.box1 span {
+    color: green;
+    font-size: 24px;
+    letter-spacing: 7px;
+}
+
+.box2 {
+    width: 32%;
+}
+
+.box2 img {
+    width: 100%;
+}
+
+.box2 h3 {
+    color: black;
+    font-size: 38px;
+    text-transform: capitalize;
+    word-spacing: 11px;
+    margin: 16px 0;
+}
+
+.box2 p {
+    color: grey;
+    font-size: 19px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-align: justify;
+}
+
+.box2 span {
+    color: green;
+    font-size: 24px;
+    letter-spacing: 7px;
+}
+
+.box3 {
+    clear: both;
+    width: 32%;
+    margin-left: 29px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.right {
+    margin-bottom: 36px;
+}
+
+.right h2 {
+    color: black;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.right span {
+    color: grey;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+}
+
+.footer-section {
+    padding-top: 49px;
+    background: grey;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.footer-section h2 {
+    color: white;
+    font-size: 41px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    color: white;
+    font-size: 26px;
+    margin: 0 100px;
+}
